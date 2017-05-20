@@ -1,0 +1,267 @@
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.main-logo {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.navbar {
+    background-color: #fff !important;
+    margin-bottom: 0px !important;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Roboto Condensed';
+    font-weight: 800;
+}
+
+.navbar-nav {
+    color: #888;
+}
+
+.navbar-nav  li {
+    text-transform: uppercase;
+}
+
+.navbar-toggle {
+    margin-top:25px;
+    color:#000;
+    border:1px solid #999;
+}
+
+.navbar-brand {
+    /*background:url('../../../images/idg-logo.png') no-repeat center center;*/
+    background-size: 250px;
+    height: 65px;
+    display: block;
+    text-indent: -9999px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.navbar-collapse,.navbar .navbar-collapse, .navbar .navbar-form {
+    border-color:#fff;
+}
+
+.content-section {
+    padding: 15px;
+}
+
+#whatis .title {
+    
+}
+
+#whatis .text{
+    font-family: "Roboto";
+    margin-top: 1.4em;
+    font-size: 1.1em;    
+    line-height: 1.6em;
+    color: #7E8182;
+}
+
+#member {
+    padding: 50px;
+}
+
+#member-list .pic{
+    overflow: hidden;
+    padding: 0px !important;
+}
+
+#member-list img {}
+
+#member-list .overlay{
+    opacity: 0;
+    position: absolute;
+    width:100%;
+    height: 70%;
+    top:30%;
+    background: rgba(37,37,37,0.9);
+}
+
+#member-list .overlay:hover{
+    opacity: 1;
+}
+
+#member-list .overlay .wrapper{
+    padding: 15px;
+    color: #ffffff;
+}
+
+#member-list .social-icon {
+    list-style: none;
+}
+
+#member-list .social-icon li {
+    float: left;
+    margin-right: 10px;
+    font-size: 2em;
+}
+
+#member-list .social-icon li a {
+    color:#fff;
+}
+
+
+.name {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed";
+    text-align: center;
+}
+
+.bio {
+    font-size: 1em;
+    text-align: center;
+}
+
+#what-we-do {
+    background-color: #0C9AB2;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+#what-we-do .content{
+    padding: 20px;
+}
+
+#what-we-do .content h3{
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+
+#what-we-do .content p{
+    padding: 10px;
+}
+
+
+
+#what-we-do i {
+    border: 2px dash #fff;
+    font-size:5em;
+}
+
+#artikel-pilihan {
+    background-color: #4BCAE8;
+    background-image: url('../../../images/bg-artikel.png');
+    background-size: 100%;
+    padding-bottom: 50px;
+}
+
+#artikel-pilihan .title h2{
+    color: #fff;
+}
+
+#artikel-pilihan .content {
+    border-radius: 5px;
+    -webkit-border-radius:15px;
+    background: #fff;
+    margin-bottom: 25px;
+}
+
+#artikel-pilihan .content .content-img {
+    position: relative;
+    height: 150px;
+    
+}
+
+#artikel-pilihan .content .content-desc {
+    padding: 15px;
+}
+
+#artikel-pilihan .content .content-desc .date {
+    color: #999;
+}
+
+#artikel-pilihan .content .content-desc h4{
+    color:#555;
+}
+
+#artikel-pilihan .content .content-desc a{
+    text-decoration: none;
+    color: #555;
+}
+
+#artikel-pilihan .content .content-desc a:hover{
+    text-decoration: none;
+    color: #777;
+}
+
+#artikel-pilihan .content .content-img a{
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#contact-us {
+    background-color: #fff;
+}
+
+#contact-us .social-media {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#contact-us .social-media ul{
+    list-style: none;
+    padding-left: 5px;
+}
+#contact-us .social-media ul li{
+    font-size:1.5em;
+    padding: 15px;
+    border: 2px solid #777; 
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#contact-us .social-media ul li:hover{
+    background-color: #777;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+#contact-us .form-message {
+    border-radius: 20px;
+    /*box-shadow: 1px 1px 5px;*/
+    /*padding: 20px;*/
+}
+
+.line {
+    content: "";
+    width: 100px;
+    display: inline-block;
+    border-bottom: 5px solid #18A2C6;
+    margin: 5px 0 50px;
+}
+
+.line-white{
+    border-bottom: 5px solid #fff !important;
+}
+
+footer {
+    background-color: #0C9AB2;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
